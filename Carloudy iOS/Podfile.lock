@@ -1,0 +1,116 @@
+PODS:
+  - AWSCore (2.5.2)
+  - AWSPolly (2.5.2):
+    - AWSCore (= 2.5.2)
+  - Firebase/Auth (3.14.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
+  - Firebase/Core (3.14.0):
+    - FirebaseAnalytics (= 3.7.0)
+    - FirebaseCore (= 3.5.1)
+  - Firebase/Database (3.14.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 3.1.2)
+  - FirebaseAnalytics (3.7.0):
+    - FirebaseCore (~> 3.5)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.5.1):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (3.1.2):
+    - FirebaseAnalytics (~> 3.7)
+  - FirebaseInstanceID (1.0.9)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMSessionFetcher/Core (1.1.8)
+  - Mapbox-iOS-SDK (3.4.2)
+  - MapboxDirections.swift (0.8.0):
+    - Polyline (~> 4.0)
+  - MapboxGeocoder.swift (0.6.0)
+  - MapboxNavigation.swift (0.0.4):
+    - AWSPolly
+    - MapboxDirections.swift
+    - OSRMTextInstructions
+  - MapboxNavigationUI.swift (0.0.1):
+    - Mapbox-iOS-SDK
+    - MapboxDirections.swift
+    - MapboxGeocoder.swift
+    - MapboxNavigation.swift
+    - OSRMTextInstructions
+    - Pulley
+    - SDWebImage
+  - OSRMTextInstructions (0.0.1):
+    - MapboxDirections.swift
+  - Polyline (4.0.0)
+  - Pulley (1.3.1)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Mapbox-iOS-SDK (~> 3.4.1)
+  - MapboxDirections.swift (~> 0.8)
+  - MapboxGeocoder.swift (~> 0.6)
+  - MapboxNavigation.swift (from `https://github.com/mapbox/MapboxNavigation.swift.git`, commit `022ed3f7fc7e77265b7cd9950a0727ff72241b62`)
+  - MapboxNavigationUI.swift (from `https://github.com/mapbox/MapboxNavigation.swift.git`)
+  - OSRMTextInstructions (from `https://github.com/Project-OSRM/osrm-text-instructions.swift.git`)
+
+EXTERNAL SOURCES:
+  MapboxNavigation.swift:
+    :commit: 022ed3f7fc7e77265b7cd9950a0727ff72241b62
+    :git: https://github.com/mapbox/MapboxNavigation.swift.git
+  MapboxNavigationUI.swift:
+    :git: https://github.com/mapbox/MapboxNavigation.swift.git
+  OSRMTextInstructions:
+    :git: https://github.com/Project-OSRM/osrm-text-instructions.swift.git
+
+CHECKOUT OPTIONS:
+  MapboxNavigation.swift:
+    :commit: 022ed3f7fc7e77265b7cd9950a0727ff72241b62
+    :git: https://github.com/mapbox/MapboxNavigation.swift.git
+  MapboxNavigationUI.swift:
+    :commit: ca96346209ca785915e2333b6d4fd33ed3cf7033
+    :git: https://github.com/mapbox/MapboxNavigation.swift.git
+  OSRMTextInstructions:
+    :commit: bdd962bf5593f951bbbbd26435f732a829dacda7
+    :git: https://github.com/Project-OSRM/osrm-text-instructions.swift.git
+
+SPEC CHECKSUMS:
+  AWSCore: b2fe455c2c7d6653521238c5b0b0ddb67ec4f063
+  AWSPolly: a87083d6ec5278a81f6aa222eb8ecea852e53027
+  Firebase: 85a581fb04e44f63ae9f4fbc8d6dabf4a4c18653
+  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: 225d40532489835a034b8f4e2c9c87fbf4f615a2
+  FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
+  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 6f8d8b28b7e345549ac471071608170b31cb4977
+  Mapbox-iOS-SDK: d2c567fee32d316044ec925c8bcfb74a92d57ec9
+  MapboxDirections.swift: 242f12da1a6530f436d5fe5b4d9fc38cf2f9b1d0
+  MapboxGeocoder.swift: dd6783c5262b4ebb1cf5f2662b56cea94a90f67d
+  MapboxNavigation.swift: a7af190da2043798ba35fe6cbed9843dec68f830
+  MapboxNavigationUI.swift: 804566de765489c61a7455106f8fdd28a51fcce6
+  OSRMTextInstructions: f253e4311da3103a9160e11e7728299533684283
+  Polyline: c6de7430bf6ff0bfff1f087343597b83b38fdb69
+  Pulley: 99a45ad8aba14dafb2c6f4f16cb9667eb41c0919
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 7646d8308884d3c703cf318ec650feee42e0ec00
+
+COCOAPODS: 1.2.0
